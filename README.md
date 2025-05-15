@@ -1,5 +1,5 @@
-# 📅 `Automate the Daily Excel Work to Prepare WIP Report` :  
-> My objective here is to **completely Automate the manual Excel Work** to prepare the WIP(Work In Progress) Data and It's Status in **PPMC (Pre-Policy Medical Check-Up)** so that we can reduce the **45 Minutes of manual work to 3 Minutes** on daily basis for 25 Account Managers.
+# 📅 `Analyze the WIP Data of a Key Insuerer Account to find the reasons and reduce the Pending Cases to improve the business` :  
+> My objective here is to **find the reasons** for increasing Pending Cases and reduce the Pending Cases to improve the sales from the Insurer for the **PPMC Business** .
 
 
 ## 🔰 `Introduction` :
@@ -19,7 +19,7 @@ Typically, policyholders above a certain age (often 40 or 45 years) are required
 
 
 ## 📊 `The Source Data` :
-> Account manageers extract csv file from CRM in evening to prepare the WIP Report. This file have **185 Columns** and usually **lakhs of rows** based on their insurer volumes. They use the following columns to prepare the next day appointment tracker :
+> Account manageers extract csv file from CRM in evening to prepare the WIP Report. This file have **185 Columns** and usually **lakhs of rows** based on their insurer volumes. We will use the following columns to prepare the next day appointment tracker :
 >- **CorporateName :** Insurer Name
 >- **PatientName :** Name of Insured who will go under the medicals.
 >- **ApplicationId :** Insured Application Number
@@ -30,5 +30,5 @@ Typically, policyholders above a certain age (often 40 or 45 years) are required
 
 # ⭐ `Let's start with the Program` :
 >We will first build the logic and will explain and make the program. And after the we will make a function to repeat this daily task, make it simple for the account manager who is not well verse with python and save the time.
->1. In First Python Program we will build and explain the entire process
->2. In Second Python Program we will write the function to repeat this daily task, make it simple for the account manager who is not well verse with python and save the time.
+>1. In First Python Program we will dive into the exploring.
+>2. In Second Python Program we will summarize it.
